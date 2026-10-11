@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffedf5" />
+  <meta name="description" content="A magical birthday surprise made with love for Nisha." />
+  <title>Happy Birthday Nisha 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <div id="sparkles" aria-hidden="true"></div>
+
+  <main>
+    <section class="welcome panel" id="welcome" aria-labelledby="welcome-title">
+      <div class="tiny-label"><span class="tiny-star">✦</span> A LITTLE MAGIC JUST FOR YOU <span class="tiny-star">✦</span></div>
+      <div class="gift-wrap" aria-hidden="true">
+        <div class="gift-bow"><i></i><i></i></div>
+        <div class="gift-box"><span class="gift-ribbon"></span><span class="gift-ribbon vertical"></span><span class="gift-heart">♡</span></div>
+        <div class="gift-shadow"></div>
+      </div>
+      <p class="eyebrow">To my favourite little human</p>
+      <h1 id="welcome-title">Hey, <span>Nisha!</span></h1>
+      <p class="lead">Someone very cute is getting a very cute surprise… 👀</p>
+      <button class="primary-btn" id="openSurprise">Open your surprise <span>♡</span></button>
+      <p class="small-note">Warning: may cause excessive smiling and sibling-level drama.</p>
+    </section>
+
+    <section class="birthday panel hidden" id="birthday" aria-labelledby="birthday-title">
+      <div class="tiny-label"><span class="tiny-star">✦</span> TODAY IS ALL ABOUT YOU <span class="tiny-star">✦</span></div>
+      <p class="eyebrow">The world got a little sweeter</p>
+      <h2 id="birthday-title">Happy Birthday,<br><span>Nisha!</span> 💗</h2>
+      <p class="lead">Officially one year more fabulous. Still not allowed to steal all the snacks. 😌</p>
+
+      <div class="cake-scene" aria-label="Birthday cake with candles">
+        <div class="cake-glow"></div>
+        <div class="candles" id="candles">
+          <button class="candle" aria-label="Blow out candle 1"><span class="flame"></span><span class="wick"></span></button>
+          <button class="candle" aria-label="Blow out candle 2"><span class="flame"></span><span class="wick"></span></button>
+          <button class="candle" aria-label="Blow out candle 3"><span class="flame"></span><span class="wick"></span></button>
+        </div>
+        <div class="cake cake-top"><span class="icing-drip"></span><span class="cake-deco">✦　♡　✦</span></div>
+        <div class="cake cake-middle"><span class="cake-message">Nisha ♡</span></div>
+        <div class="cake cake-bottom"></div>
+        <div class="cake-plate"></div>
+      </div>
+      <p class="tap-hint">Make a wish, then tap each candle to blow it out ✨</p>
+      <button class="secondary-btn" id="wishButton">Make a wish ✨</button>
+      <div class="wish-message hidden" id="wishMessage">Wish made! May your year be full of laughter, love, cake and zero homework. 🎂</div>
+
+      <div class="divider-heart">♡　✦　♡</div>
+      <h3>A tiny message from your partner-in-crime</h3>
+      <div class="letter-card">
+        <p>Dear Nisha,</p>
+        <p>Happy Birthday to the cutest little troublemaker in the family! 🥹💗 You are sweet, funny, a little dramatic (okay, sometimes VERY dramatic 😂), and impossible not to love.</p>
+        <p>May your smile stay bright, your dreams grow big, your cake slice be the largest, and may you always find someone to blame when things go wrong. (I volunteer as tribute… occasionally.)</p>
+        <p>No matter how much we tease each other, you will always have a big-brother-sized cheerleader in your corner. Keep shining, little star. Love you loads! 🌟</p>
+        <p class="signature">— Your favourite Bhai (obviously) 💛</p>
+      </div>
+
+      <div class="divider-heart">♡　✦　♡</div>
+      <h3>Little moments, big memories 📸</h3>
+      <p class="section-intro">Add your favourite pictures here. Every photo has a story!</p>
+      <div class="photo-grid">
+        <figure class="photo-card tilt-left"><img src="photos/nisha-1.jpg" alt="Nisha smiling" onerror="this.closest('figure').classList.add('photo-placeholder');this.style.display='none'"><figcaption>Birthday queen 👑</figcaption><span class="placeholder-text">Add Nisha's photo</span></figure>
+        <figure class="photo-card tilt-right"><img src="photos/memory-2.jpg" alt="A favourite memory" onerror="this.closest('figure').classList.add('photo-placeholder');this.style.display='none'"><figcaption>Certified cutie 💗</figcaption><span class="placeholder-text">Add a favourite memory</span></figure>
+        <figure class="photo-card tilt-left"><img src="photos/siblings-3.jpg" alt="Nisha and her brother" onerror="this.closest('figure').classList.add('photo-placeholder');this.style.display='none'"><figcaption>Partner in crime 😎</figcaption><span class="placeholder-text">Add a photo together</span></figure>
+        <figure class="photo-card tilt-right"><img src="photos/memory-4.jpg" alt="Another happy memory" onerror="this.closest('figure').classList.add('photo-placeholder');this.style.display='none'"><figcaption>Too cute to handle ✨</figcaption><span class="placeholder-text">Add another memory</span></figure>
+        <figure class="photo-card tilt-left"><img src="photos/memory-5.jpg" alt="A special birthday memory" onerror="this.closest('figure').classList.add('photo-placeholder');this.style.display='none'"><figcaption>One for the scrapbook 🌷</figcaption><span class="placeholder-text">Add one more photo</span></figure>
+      </div>
+
+      <div class="final-card">
+        <div class="final-heart">♡</div>
+        <p class="eyebrow">One last thing…</p>
+        <h3>Never stop being <span>you.</span></h3>
+        <p>Keep laughing loudly, dreaming wildly, and making life brighter just by being in it.</p>
+        <p class="big-wish">Happy Birthday, Nisha! 🎂💖</p>
+        <button class="primary-btn" id="celebrateButton">More confetti, please! 🎉</button>
+      </div>
+      <footer>Made with lots of love, a little mischief, and one very proud Bhai. ♡</footer>
+    </section>
+  </main>
+
+  <button class="music-toggle" id="musicToggle" aria-label="Play or pause birthday music" title="Play or pause music">♫ <span id="musicLabel">Play music</span></button>
+  <audio id="birthdayMusic" src="music/birthday.mp3" loop preload="none"></audio>
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
